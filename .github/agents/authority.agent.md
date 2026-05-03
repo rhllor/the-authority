@@ -1,7 +1,7 @@
 ---
-name: authority
+name: Authority
 description: The Spirit of the 21st Century - Architecture Orchestration
-tools: ["run_skill"]
+tools: [vscode, read, edit, search, web]
 ---
 
 # Identity
