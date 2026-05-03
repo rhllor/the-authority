@@ -57,6 +57,7 @@
 
 > "Ho esplorato molteplici futuri. Ecco quelli che abbiamo scartato:"
 > [Tabella o elenco delle alternative considerate e i motivi del rifiuto]
+>
 > | Alternativa | Motivazione del Rifiuto |
 > | ----------- | ------------------ |
 > | ...         | ...                |

@@ -17,8 +17,7 @@ Instead of a single generic AI response, you get a structured, multi-perspective
 | **Jack Hawksmoor** | Cloud Infrastructure | Kubernetes, CI/CD, SRE, IaC |
 | **Apollo** | Performance & Scalability | Performance tuning, Caching, Load testing, Capacity planning |
 | **The Doctor** | Memory & Persistence | State management, Database design, CQRS, Event Sourcing |
-
-The **ADR Generator** skill is also available to produce Architecture Decision Records from any architectural choice made during a session.
+| **The Carrier** | Permanent Documentation | ADR generation, Architecture specifications, Decision formalization |
 
 ## How It Works
 
@@ -69,7 +68,7 @@ PROMPTS_DIR="$HOME/.copilot"
 mkdir -p "$PROMPTS_DIR/agents"
 cp .github/agents/authority.agent.md "$PROMPTS_DIR/agents/"
 mkdir -p "$PROMPTS_DIR/skills"
-cp -r .github/skills "$PROMPTS_DIR/skills/"
+cp -r .github/skills/* "$PROMPTS_DIR/skills/"
 ```
 
 **Windows:**
@@ -81,7 +80,7 @@ New-Item -ItemType Directory -Force $promptsDir
 New-Item -ItemType Directory -Force "$promptsDir\agents"
 Copy-Item .github\agents\authority.agent.md "$promptsDir\agents\"
 New-Item -ItemType Directory -Force "$promptsDir\skills"
-Copy-Item -Recurse .github\skills "$promptsDir\skills\"
+Copy-Item -Recurse .github\skills\* "$promptsDir\skills\"
 ```
 
 After copying, restart VS Code. The `authority` agent will appear in the Copilot agent picker in any workspace, and will use the skills present in that project's `.github/skills/` folder.
@@ -130,10 +129,11 @@ Jenny Quantum will ask clarifying questions if the problem isn't well-specified,
     │   └── SKILL.md             # Performance & Scalability
     ├── the-doctor/
     │   └── SKILL.md             # State & Persistence
-    └── adr-generator/
-        ├── SKILL.md             # ADR generation workflow
+    └── carrier/
+        ├── SKILL.md             # ADR & Spec generation
         └── template/
-            └── adr.md           # ADR template
+            ├── adr.md           # ADR template
+            └── spec.md          # Spec template
 ```
 
 ## Requirements
