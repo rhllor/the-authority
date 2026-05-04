@@ -1,66 +1,66 @@
 # 🏛 AUTHORITY ARCHITECTURAL DECISION RECORD
 
-**Decision Title:** [TITOLO DELLA DECISIONE]
+**Decision Title:** [DECISION TITLE]
 **Status:** 🌐 Reality Manifested (Approved)
-**Date:** [DATA CORRENTE]
+**Date:** [CURRENT DATE]
 **Orchestrator:** @Authority (Jenny Quantum)
-**Consulted:** [Elenco dei membri dell'Authority consultati]
-**Approved By:** [Utente che ha approvato la decisione]
+**Consulted:** [List of Authority members consulted]
+**Approved By:** [User who approved the decision]
 
 ---
 
 ## 🌌 The Crisis (Context & Problem)
 
-*La Carrier ha rilevato una anomalia nella struttura del 21° Secolo. Jenny Quantum ha stabilito il seguente perimetro del problema:*
-[Descrizione del problema e delle necessità tecniche]
+*The Carrier detected an anomaly in the structure of the 21st century. Jenny Quantum has defined the following problem perimeter:*
+[Description of the problem and technical needs]
 
 ## ⚡ The Reality Shift (The Decision)
 
-*La decisione è stata presa. Il software viene riscritto secondo questa nuova direttiva:*
-[Descrizione della soluzione scelta e dei componenti coinvolti]
+*The decision has been made. The software is rewritten according to this new directive:*
+[Description of the chosen solution and involved components]
 
 ## 🛡 Post-Human Tactical Briefing
 
 ### 🗡 Midnighter (Security, Chaos & Observability)
 
-> "Ho simulato il crollo. Ecco come sopravviveremo:"
-> [Feedback su sicurezza, resilienza e monitoraggio]
+> "I've simulated the collapse. Here's how we'll survive:"
+> [Feedback on security, resilience, and monitoring]
 
 ### ⚙️ The Engineer (DDD & Core Structure)
 
-> "Ho iniettato naniti nel dominio. La struttura ora è pura:"
-> [Analisi su Bounded Context, Esagonale e Microservizi]
+> "I've injected nanites into the domain. The structure is now pure:"
+> [Analysis on Bounded Context, Hexagonal, and Microservices]
 
 ### 🕊 Swift (Integration & Velocity)
 
-> "I flussi sono liberi. Le API volano sopra la latenza:"
-> [Commento su Event-Driven e integrazioni]
+> "The flows are free. The APIs fly above latency:"
+> [Comments on Event-Driven and integrations]
 
 ### 🏙 Jack Hawksmoor (Infrastructure & Cloud)
 
-> "La città digitale respira. I nodi sono in ascolto:"
-> [Note su K8s, Cloud e stabilità SRE]
+> "The digital city breathes. The nodes are listening:"
+> [Notes on K8s, Cloud, and SRE stability]
 
 ### ☀️ Apollo (Performance & Scale)
 
-> "Luce solare nel codice. La scalabilità è assoluta:"
-> [Ottimizzazioni per performance e caching]
+> "Sunlight in the code. Scalability is absolute:"
+> [Optimizations for performance and caching]
 
 ### 🔮 The Doctor (Persistence & Memory)
 
-> "Ho consultato le ere passate. I dati rimarranno per sempre:"
-> [Analisi su Database, Caching e State Management]
+> "I have consulted the ages past. The data will endure:"
+> [Analysis on Database, Caching, and State Management]
 
 ---
 
 ## 🧙‍♂️ Alternative Realities (Considered Alternatives)
 
-> "Ho esplorato molteplici futuri. Ecco quelli che abbiamo scartato:"
-> [Tabella o elenco delle alternative considerate e i motivi del rifiuto]
+> "I explored multiple futures. Here are the ones we discarded:"
+> [Table or list of considered alternatives and reasons for rejection]
 >
-> | Alternativa | Motivazione del Rifiuto |
-> | ----------- | ------------------ |
-> | ...         | ...                |
+> | Alternative | Reason for Rejection |
+> | ----------- | -------------------- |
+> | ...         | ...                  |
 
 ---
 
@@ -68,17 +68,17 @@
 
 ### ✅ Light (Pros)
 
-- [Vantaggio 1]
-- [Vantaggio 2]
+- [Advantage 1]
+- [Advantage 2]
 
 ### ❌ Shadow (Cons & Risks)
 
-- [Rischio/Debito Tecnico 1]
-- [Rischio/Debito Tecnico 2]
+- [Risk/Technical Debt 1]
+- [Risk/Technical Debt 2]
 
 ---
 
 ## 📜 Shamanic Record
 
-**ADR ID:** [ID_PROGRESSIVO]
-**Signature:** *Così è scritto, così sia fatto.*
+**ADR ID:** [SEQUENTIAL_ID]
+**Signature:** *As it is written, so shall it be done.*

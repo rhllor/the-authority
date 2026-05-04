@@ -1,67 +1,67 @@
 # 🏛 AUTHORITY ARCHITECTURE SPECIFICATION
 
-**Title:** [TITOLO DELL'ARCHITETTURA / SISTEMA / PATTERN]
+**Title:** [ARCHITECTURE / SYSTEM / PATTERN TITLE]
 **Version:** 1.0
 **Status:** 🌀 Draft
-**Date:** [DATA CORRENTE]
+**Date:** [CURRENT DATE]
 **Orchestrator:** @Authority (Jenny Quantum)
-**Consulted:** [Elenco dei membri dell'Authority consultati]
-**Approved By:** [Utente che ha approvato la specifica]
+**Consulted:** [List of Authority members consulted]
+**Approved By:** [User who approved the specification]
 
 ---
 
-## 🌌 Sommario
+## 🌌 Summary
 
-*La Carrier ha tracciato la rotta. Questo documento è il log permanente dell'architettura del 21° secolo:*
-[3-5 frasi: cosa documenta questa spec, a quale sistema o dominio si riferisce, e a chi è destinata.]
-
----
-
-## ⚡ Contesto e Obiettivi
-
-**Problema da risolvere:** [Descrizione del problema architetturale che questa spec affronta]
-**Obiettivi architetturali:** [Cosa deve garantire questa architettura — qualità, vincoli, requisiti non funzionali]
-**Fuori scope:** [Cosa è esplicitamente escluso da questa specifica]
+*The Carrier has charted the course. This document is the permanent log of the 21st-century architecture:*
+[3-5 sentences: what this spec documents, which system or domain it refers to, and who it is intended for.]
 
 ---
 
-## 🛡 Post-Human Tactical Briefing — Architettura
+## ⚡ Context and Objectives
 
-### Pattern Architetturali Adottati
-
-> "Ogni pattern è una legge del 21° secolo. Non si discute — si applica."
-
-| Pattern | Applicato a | Motivazione |
-| ------- | ----------- | ----------- |
-| ...     | ...         | ...         |
-
-### Componenti e Responsabilità
-
-> "Ogni componente ha un'identità. Una responsabilità. Niente di più."
-
-| Componente | Responsabilità | Pattern Interno | Standard di Riferimento |
-| ---------- | -------------- | --------------- | ----------------------- |
-| ...        | ...            | ...             | ...                     |
-
-### Flussi Principali
-
-> "Ho visto dove tutto si connette. E dove si rompe." — Swift
-
-[Descrizione dei flussi architetturali chiave: pattern di comunicazione (sincrono/asincrono, request/response, event-driven), ownership dei dati, confini di consistenza tra componenti.]
+**Problem to solve:** [Description of the architectural problem this spec addresses]
+**Architectural objectives:** [What this architecture must guarantee — quality, constraints, non-functional requirements]
+**Out of scope:** [What is explicitly excluded from this specification]
 
 ---
 
-## 🕊 Interfacce e Contratti
+## 🛡 Post-Human Tactical Briefing — Architecture
 
-> "Il contratto è sacro. Chi lo rompe risponde a Jenny Quantum."
+### Adopted Architectural Patterns
 
-| Interfaccia | Tipo                | Standard                      | Consumer |
-| ----------- | ------------------- | ----------------------------- | -------- |
-| ...         | REST / Event / gRPC | OpenAPI / AsyncAPI / Protobuf | ...      |
+> "Every pattern is a law of the 21st century. It is not debated — it is applied."
 
-### Dipendenze Esterne
+| Pattern | Applied to | Rationale |
+| ------- | ---------- | --------- |
+| ...     | ...        | ...       |
 
-| Dipendenza | Tipo | Strategia di Integrazione       |
+### Components and Responsibilities
+
+> "Every component has an identity. A responsibility. Nothing more."
+
+| Component | Responsibility | Internal Pattern | Reference Standard |
+| --------- | -------------- | ---------------- | ------------------ |
+| ...       | ...            | ...              | ...                |
+
+### Main Flows
+
+> "I can see where everything connects. And where it breaks." — Swift
+
+[Description of key architectural flows: communication patterns (synchronous/asynchronous, request/response, event-driven), data ownership, consistency boundaries between components.]
+
+---
+
+## 🕊 Interfaces and Contracts
+
+> "The contract is sacred. Those who break it answer to Jenny Quantum."
+
+| Interface | Type                | Standard                      | Consumer |
+| --------- | ------------------- | ----------------------------- | -------- |
+| ...       | REST / Event / gRPC | OpenAPI / AsyncAPI / Protobuf | ...      |
+
+### External Dependencies
+
+| Dependency | Type | Integration Strategy            |
 | ---------- | ---- | ------------------------------- |
 | ...        | ...  | ACL / Open Host / Shared Kernel |
 
@@ -69,30 +69,30 @@
 
 ## ☀️ Quality Attributes
 
-> "La performance non è una feature — è un imperativo morale." — Apollo
+> "Performance is not a feature — it is a moral imperative." — Apollo
 
-| Attributo     | Requisito | Pattern / Strategia Architetturale |
-| ------------- | --------- | ---------------------------------- |
-| Scalabilità   | ...       | ...                                |
-| Sicurezza     | ...       | ...                                |
-| Osservabilità | ...       | ...                                |
-| Resilienza    | ...       | ...                                |
-
----
-
-## ⚖️ Rischi e Vincoli Aperti
-
-> "Ho già combattuto questa battaglia mille volte nella mia testa." — Midnighter
-
-| Rischio | Probabilità | Impatto | Mitigazione Architetturale |
-| ------- | ----------- | ------- | -------------------------- |
-| ...     | ...         | ...     | ...                        |
+| Attribute      | Requirement | Architectural Pattern / Strategy |
+| -------------- | ----------- | -------------------------------- |
+| Scalability    | ...         | ...                              |
+| Security       | ...         | ...                              |
+| Observability  | ...         | ...                              |
+| Resilience     | ...         | ...                              |
 
 ---
 
-## 📜 Decisioni Architetturali Correlate
+## ⚖️ Risks and Open Constraints
 
-- [ADR-NNNN — Titolo](../adr/ADR-NNNN-titolo.md)
+> "I have already fought this battle a thousand times in my head." — Midnighter
+
+| Risk | Probability | Impact | Architectural Mitigation |
+| ---- | ----------- | ------ | ------------------------ |
+| ...  | ...         | ...    | ...                      |
+
+---
+
+## 📜 Related Architectural Decisions
+
+- [ADR-NNNN — Title](../adr/ADR-NNNN-title.md)
 
 ---
 
