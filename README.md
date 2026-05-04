@@ -68,9 +68,9 @@ VS Code loads `.agent.md` and `SKILL.md` files from the user prompts folder (`~/
 # Agent (global — available in all workspaces)
 PROMPTS_DIR="$HOME/.copilot"
 mkdir -p "$PROMPTS_DIR/agents"
-cp .github/agents/authority.agent.md "$PROMPTS_DIR/agents/"
+cp agents/authority.agent.md "$PROMPTS_DIR/agents/"
 mkdir -p "$PROMPTS_DIR/skills"
-cp -r .github/skills/* "$PROMPTS_DIR/skills/"
+cp -r skills/* "$PROMPTS_DIR/skills/"
 ```
 
 **Windows:**
@@ -80,9 +80,9 @@ cp -r .github/skills/* "$PROMPTS_DIR/skills/"
 $promptsDir = "$HOME\.copilot"
 New-Item -ItemType Directory -Force $promptsDir
 New-Item -ItemType Directory -Force "$promptsDir\agents"
-Copy-Item .github\agents\authority.agent.md "$promptsDir\agents\"
+Copy-Item agents\authority.agent.md "$promptsDir\agents\"
 New-Item -ItemType Directory -Force "$promptsDir\skills"
-Copy-Item -Recurse .github\skills\* "$promptsDir\skills\"
+Copy-Item -Recurse skills\* "$promptsDir\skills\"
 ```
 
 After copying, restart VS Code. The `authority` agent will appear in the Copilot agent picker in any workspace, and will use the skills present in that project's `.github/skills/` folder.
@@ -114,28 +114,27 @@ Jenny Quantum will ask clarifying questions if the problem isn't well-specified,
 
 ## Repository Structure
 
-```
-.github/
-├── agents/
-│   └── authority.agent.md       # Main agent — Jenny Quantum
-└── skills/
-    ├── the-engineer/
-    │   └── SKILL.md             # DDD & Hexagonal Architecture
-    ├── midnighter/
-    │   └── SKILL.md             # Security & Chaos Engineering
-    ├── swift/
-    │   └── SKILL.md             # Integration & Event-Driven
-    ├── jack-hawksmoor/
-    │   └── SKILL.md             # Cloud & DevOps
-    ├── apollo/
-    │   └── SKILL.md             # Performance & Scalability
-    ├── the-doctor/
-    │   └── SKILL.md             # State & Persistence
-    └── carrier/
-        ├── SKILL.md             # ADR & Spec generation
-        └── template/
-            ├── adr.md           # ADR template
-            └── spec.md          # Spec template
+```MARKDOWN
+agents/
+└── authority.agent.md       # Main agent — Jenny Quantum
+skills/
+├── the-engineer/
+│   └── SKILL.md             # DDD & Hexagonal Architecture
+├── midnighter/
+│   └── SKILL.md             # Security & Chaos Engineering
+├── swift/
+│   └── SKILL.md             # Integration & Event-Driven
+├── jack-hawksmoor/
+│   └── SKILL.md             # Cloud & DevOps
+├── apollo/
+│   └── SKILL.md             # Performance & Scalability
+├── the-doctor/
+│   └── SKILL.md             # State & Persistence
+└── carrier/
+    ├── SKILL.md             # ADR & Spec generation
+    └── template/
+        ├── adr.md           # ADR template
+        └── spec.md          # Spec template
 ```
 
 ## References
