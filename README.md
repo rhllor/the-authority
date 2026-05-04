@@ -2,6 +2,8 @@
 
 > _"The Spirit of the 21st Century"_
 
+![screenshot](resources/image.png)
+
 **The Authority** is a GitHub Copilot agent that orchestrates a team of specialized sub-agents to tackle complex software architecture problems. Inspired by Warren Ellis's comic series, each team member embodies a specific engineering domain and brings a distinct, uncompromising perspective.
 
 Instead of a single generic AI response, you get a structured, multi-perspective architectural analysis — from domain design to security, infrastructure, performance, and integration.
@@ -136,8 +138,6 @@ Jenny Quantum will ask clarifying questions if the problem isn't well-specified,
             └── spec.md          # Spec template
 ```
 
-## Requirements
+## References
 
-- VS Code 1.99 or later
-- GitHub Copilot subscription with agent mode enabled
-- The `run_skill` tool must be available (included in agent mode by default)
+- [Warren Ellis's The Authority](https://en.wikipedia.org/wiki/The_Authority_(comics))
